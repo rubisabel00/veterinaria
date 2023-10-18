@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo1.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: auto;
+}
+
+/* .img{
+    margin-top: -100px;
+} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #4cda00;
+}
+
+.nav-link {
+    color: #4cda00;
+}
+
+/* .logo {
+    width: 15%;
+    height: 10%;
+} */
+
+@font-face{
+    font-family: holyfat;
+    src: url(Holyfat.ttf);
+}
+
+.text-holyfat {
+    font-family: holyfat;
+    font-size: 40px;
+}
+
+.tipografia {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.barra-menu {
+    background: #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 75px;
+}
+
+
+.strong {
+    font-weight: 900; }
+
+.parrafo {
+    color: #02c6db;
+    
+}
+
+.subtitulo{
+    margin-top: -20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4cda00;
+    border-color: #4cda00;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #4cda00;
+    border-color: #4cda00;
+    box-shadow: 0 0 0 0.2rem rgba(92, 250, 7, 0.274);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4cda0091;
+    border-color: #4cda0091;
+    cursor: pointer;
+    
+}
+
+.boton-inscribete {
+    width: 200px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.parrafo2 {
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+.carousel {
+    width: 400px;
+}
+
+#menu a:hover{
+    color: white!important;
+    background-color: #4cda00;
+}
+
+footer  {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff85;
+}
+
+.bordec {
+    border-radius: 5px;
+}
+
+.container figure {
+    position: relative;
+    cursor: pointer;
+
+}
+.container figure img{
+    transition: all 500ms ease-out;
+}
+
+.container figure .capa {
+    width: 200px;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    background: rgba(181, 248, 168, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden; 
+}
+
+.container figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+i.fab.fa-facebook.text-dark{
+
+}
+
+i.fab.fa-facebook.text-dark:hover{
+    color: white !important;
+}
+
+i.fab.fa-instagram-square.text-dark{
+
+}
+
+i.fab.fa-instagram-square.text-dark:hover{
+    color: white !important;
+}
+
+.barra{
+    background:#fff !important;
+    width: 150px;
+}
